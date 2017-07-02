@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="Arise" />
+<meta name="description" content="Arise" />
+<meta name="keywords" content="Arise, Blog, Article" />
+<meta name="author" content="Danstan" />
+<meta name="publisher" content="arise" />
+<meta name="copyright" content="arise" />
+<meta name="creation_Date" content="06/24/2017" />
+<meta name="expires" content="" />
+
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<title>Arise</title>
+<!--StyleSheet-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!--Javascript-->
+<script src="js/google.api.js"></script> 
+</head>
+
+<body>
+<!--Header Section-->
+<header class="mainheader">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logoarea" href="#">Arise Blog</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navigation">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+       <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<!--Banner Section-->
+<section class="banner-tp">
+  <div class="container">
+  <div class="row">
+    <div class="topbanner_content">
+      <h1>Welcome to our Blog!</h1>
+       <p>Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus.</p>
+
+       <!--Model Area-->
+       <div class="col-xs-12 col-sm-12">
+         <a href="#" class="btn btnmodel" data-toggle="modal" data-target="#basicModal">Click to open Modal</a>
+         <div class="modelhidden">
+           <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title" id="myModalLabel">Getting Started</h4>
+    </div>
+      
+    <form action="" method="POST">
+        <div class="modal-body">
+        <!--Content goes here-->
+        <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="reset" class="btn closebtn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </form>
+    </div>
+  </div>
+</div>
+         </div>
+       </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+<!--Blog Section-->
+<section class="maincontent">
+  <div class="container">
+    <div class="row">
+    <!--Filter tab Section-->
+    <div align="center" id="filters">
+            <button class="btn btn-default filter-button" data-filter="all"><span>All</span></button>
+            <button class="btn btn-default filter-button" data-filter="art"><span>Art</span></button>
+            <button class="btn btn-default filter-button" data-filter="mediaitem"><span>Media</span></button>
+            <button class="btn btn-default filter-button" data-filter="brand"><span>Brand</span></button>
+        </div>
+
+<div class="blogarea" id="bloglist">
+      <div class="grid-boxes-in col-lg-4 col-md-4 col-sm-6 col-xs-6 art" data-cat="art">
+      <div class="col-page">
+          <img class="img-responsive" src="images/img1.jpg" alt="">
+          <div class="grid-boxes-caption">
+            <h3><a href="#">Facilisis odio, dapibus ac justo acilisis gestinas</a></h3>
+            <ul class="list-inline grid-boxes-news">
+              <li><span>By</span> <a href="#">Joe Doe</a></li>
+              <li>|</li>
+              <li><i class="fa fa-clock-o"></i> Aug 22, 2015</li>
+              <li>|</li>
+              <li><a href="#"><i class="fa fa-comments-o"></i> 15</a></li>
+            </ul>
+            <p>Donec semper tempus nisi, non gravida augue iaculis ate. Maecenas pharetra turpis est, vitae venenatis eleifend itae amet. Mauris sit amet sapien eget lacus posuere.</p>
+          </div>
+          </div>
+        </div>
+              <div class="grid-boxes-in col-lg-4 col-md-4 col-sm-6 col-xs-6 brand" data-cat="brand">
+              <div class="col-page">
+          <img class="img-responsive" src="images/img6.jpg" alt="">
+          <div class="grid-boxes-caption">
+            <h3><a href="#">Facilisis odio, dapibus ac justo acilisis gestinas</a></h3>
+            <ul class="list-inline grid-boxes-news">
+              <li><span>By</span> <a href="#">Kathy Reyes</a></li>
+              <li>|</li>
+              <li><i class="fa fa-clock-o"></i> July 22, 2014</li>
+              <li>|</li>
+              <li><a href="#"><i class="fa fa-comments-o"></i> 11</a></li>
+            </ul>
+            <p>Donec semper tempus nisi, non gravida augue iaculis ate. Maecenas pharetra turpis est, vitae venenatis eleifend itae amet. Mauris sit amet sapien eget lacus posuere.</p>
+          </div>
+          </div>
+        </div>
+              <div class="grid-boxes-in col-lg-4 col-md-4 col-sm-6 col-xs-6 mediaitem" data-cat="mediaitem">
+              <div class="col-page">
+          <img class="img-responsive" src="images/img12.jpg" alt="">
+          <div class="grid-boxes-caption">
+            <h3><a href="#">Facilisis odio, dapibus ac justo acilisis gestinas</a></h3>
+            <ul class="list-inline grid-boxes-news">
+              <li><span>By</span> <a href="#">Irene Kay</a></li>
+              <li>|</li>
+              <li><i class="fa fa-clock-o"></i> Dec 09, 2014</li>
+              <li>|</li>
+              <li><a href="#"><i class="fa fa-comments-o"></i> 104</a></li>
+            </ul>
+            <p>Donec semper tempus nisi, non gravida augue iaculis ate. Maecenas pharetra turpis est, vitae venenatis eleifend itae amet. Mauris sit amet sapien eget lacus posuere.</p>
+          </div>
+        </div>
+        </div>
+         <div class="grid-boxes-in col-lg-4 col-md-4 col-sm-6 col-xs-6 art" data-cat="art">
+              <div class="col-page">
+          <img class="img-responsive" src="images/img6.jpg" alt="">
+          <div class="grid-boxes-caption">
+            <h3><a href="#">Facilisis odio, dapibus ac justo acilisis gestinas</a></h3>
+            <ul class="list-inline grid-boxes-news">
+              <li><span>By</span> <a href="#">Irene Kay</a></li>
+              <li>|</li>
+              <li><i class="fa fa-clock-o"></i> Dec 09, 2014</li>
+              <li>|</li>
+              <li><a href="#"><i class="fa fa-comments-o"></i> 104</a></li>
+            </ul>
+            <p>Donec semper tempus nisi, non gravida augue iaculis ate. Maecenas pharetra turpis est, vitae venenatis eleifend itae amet. Mauris sit amet sapien eget lacus posuere.</p>
+          </div>
+        </div>
+        </div>
+        <div class="grid-boxes-in col-lg-4 col-md-4 col-sm-6 col-xs-6 mediaitem" data-cat="mediaitem">
+              <div class="col-page">
+          <img class="img-responsive" src="images/img12.jpg" alt="">
+          <div class="grid-boxes-caption">
+            <h3><a href="#">Facilisis odio, dapibus ac justo acilisis gestinas</a></h3>
+            <ul class="list-inline grid-boxes-news">
+              <li><span>By</span> <a href="#">Kathy Reyes</a></li>
+              <li>|</li>
+              <li><i class="fa fa-clock-o"></i> July 22, 2014</li>
+              <li>|</li>
+              <li><a href="#"><i class="fa fa-comments-o"></i> 11</a></li>
+            </ul>
+            <p>Donec semper tempus nisi, non gravida augue iaculis ate. Maecenas pharetra turpis est, vitae venenatis eleifend itae amet. Mauris sit amet sapien eget lacus posuere.</p>
+          </div>
+          </div>
+        </div>
+        <div class="grid-boxes-in col-lg-4 col-md-4 col-sm-6 col-xs-6 brand" data-cat="brand">
+      <div class="col-page">
+          <img class="img-responsive" src="images/img1.jpg" alt="">
+          <div class="grid-boxes-caption">
+            <h3><a href="#">Facilisis odio, dapibus ac justo acilisis gestinas</a></h3>
+            <ul class="list-inline grid-boxes-news">
+              <li><span>By</span> <a href="#">Joe Doe</a></li>
+              <li>|</li>
+              <li><i class="fa fa-clock-o"></i> Aug 22, 2015</li>
+              <li>|</li>
+              <li><a href="#"><i class="fa fa-comments-o"></i> 15</a></li>
+            </ul>
+            <p>Donec semper tempus nisi, non gravida augue iaculis ate. Maecenas pharetra turpis est, vitae venenatis eleifend itae amet. Mauris sit amet sapien eget lacus posuere.</p>
+          </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!--Social media-->
+<div class="socialmedia-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <h4>Connect with us</h4>
+                <hr>
+                  <a rel="nofollow" href="#"><i class="fa fa-facebook"></i></a>
+                  <a rel="nofollow" href="#"><i class="fa fa-twitter"></i></a>
+                  <a rel="nofollow" href="#"><i class="fa fa-google"></i></a>
+                  <a rel="nofollow" href="#"><i class="fa fa-linkedin"></i></a>
+                  <a rel="nofollow" href="#"><i class="fa fa-youtube"></i></a>
+                  <a rel="nofollow" href="#"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer Section-->
+<footer class="mainfooter">
+  <div class="container">
+    <div class="row"><p> &copy; Arise Blog | All rights reserved </p></div>
+  </div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>  
+<script src="js/main.js"></script>  
+<script>
+
+</script>
+</body>
+</html>
